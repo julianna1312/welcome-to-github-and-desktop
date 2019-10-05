@@ -1,0 +1,112 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title> Мой BLOG </title>
+  <style>
+ body {
+    font: 13pt Arial, Helvetica, sans-serif; /* Шрифт теста */
+    background: #e1dfb9; /* Цвет фона */
+   }
+   h2 {
+    font-size: 18px; /* Размер шрифта в заголовке */
+    color: #080808; /* Цвет заголовка */
+    margin-top: 0; /* Отступ сверху */
+   }
+   .container {
+    width: 600px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивнить весь блок по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
+   }
+   .header {
+    font-size: 38px; /* Размер текста в шапке */
+    text-align: center; /* Выравнивание текст шапки по центру */
+    padding: 5px; /* Отступы внутри блока шапки */
+    background: #8fa09b; /* Цвет фона шапки */
+    color: #fff; /* Цвет текста */
+   }
+   .sidebar {
+    margin-top: 10px;
+    width: 110px; /* Ширина блока */
+    padding: 0 10px; /* Отступы внутри левого блока */
+    float: left; /* Обтекание блока по правому краю */
+   }
+   .content {
+    margin-left: 130px; /* Отступ слева */
+    padding: 10px; /* Отступы внутри правого блока */
+    background: #fff; /* Цвет фона правого блока */
+   }
+   .footer {
+    background: #8fa09b; /* Цвет фона нижнего блока-подвала */
+    color: #fff; /* Цвет текста подвала */
+    padding: 5px; /* Отступы внутри блока */
+    clear: left; /* Отменяем действие float */
+   }
+  </style>
+<style>
+#submit {
+font-family: sans-serif;
+color: #ffffff;
+font-size: 18px;
+padding: 0px;
+text-decoration: none;
+box-shadow: 0px 1px 3px #666666;
+-webkit-box-shadow: 0px 1px 3px #666666;
+-moz-box-shadow: 0px 1px 3px #666666;
+text-shadow: 1px 1px 3px #666666;
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#ce1515), to(#8b0d0d));
+background: -moz-linear-gradient(top, #ce1515, #8b0d0d);
+}
+ 
+#submit:hover {
+ background: -webkit-gradient(linear, 0 0, 0 100%, from(#8b0d0d), to(#ce1515));
+ background: -moz-linear-gradient(top, #8b0d0d, #ce1515)
+}
+#respond input[type=text], textarea {
+ -webkit-transition: all 0.30s ease-in-out;
+ -moz-transition: all 0.30s ease-in-out;
+ -ms-transition: all 0.30s ease-in-out;
+ -o-transition: all 0.30s ease-in-out;
+ outline: none;
+ padding: 3px 0px 3px 3px;
+ margin: 5px 1px 3px 0px;
+ border: 1px solid #DDDDDD;
+}
+#respond input[type=text]:focus, textarea:focus {
+ box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+ margin: 5px 1px 3px 0px;
+ border: 1px solid rgba(81, 203, 238, 1);
+}
+</style>
+</head>
+ 
+<body>
+<meta charset="UTF-8" />
+  
+<h2>Форма обратной связи.</h2>
+ 
+<form name="MyForm" action="" method="post">
+<p><input class="input" name="name" type="text" style="width:15%" /> Ваше имя*</p>
+<p><input class="input" name="email" type="text" style="width:15%" /> Электронная почта*</p>
+<p><input class="input" name="sub" type="text" style="width:15%" /> Тема сообщения</p>
+<p>Текст сообщения:<br /><textarea name="body" cols="1" rows="5" style="width:30%" /></textarea></p>
+
+ <h3>Текст пользовательского соглашения</h3>
+    <p>1. Мы ни за что ответственности не несём.</p>
+    <p>2. Вы несёте. За нарушение правил, законов.</p>
+  
+   <p><input type="checkbox" name="checkme" id="agree" /> Я прочитал(а) и согласен.</p>
+ </form>
+ <form name="forma1">
+  Укажите ваш пол:<br>
+  <input type="radio" name="sex" value="man"сhecked>мужской
+  <input type="radio" name="sex" value="woman"> женский
+</form>
+        
+
+ </script>
+<p><input id="submit" value="Отправить" type="submit" /></p>
+</form>
+
+
+</body>
+</html>
